@@ -13,4 +13,3 @@ Notes
 String str will never be null.
 
 https://www.codewars.com/kata/fixme-replace-all-dots/train/javascript
->>>>>>> 1e620109ddbd7199ac17fdb2e851949d57df2c72
