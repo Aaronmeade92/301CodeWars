@@ -1,8 +1,6 @@
 # 301CodeWars
 Code Wars solutions
-<<<<<<< HEAD
 https://github.com/Aaronmeade92/301CodeWars/compare/replace-all-dots?expand=1
-=======
 # Week 1
 The code provided is supposed replace all the dots . in the specified String str with dashes -
 
