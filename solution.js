@@ -7,3 +7,10 @@ function abbrevName(name){
     // code away
 
 }
+
+// Meerkats
+
+function fixTheMeerkat(arr) {
+ //your code here
+ return arr.reverse();
+}
