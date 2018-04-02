@@ -41,3 +41,4 @@ function isNice(arr){
 
 return arr.length > 1;
 }
+
