@@ -19,3 +19,25 @@ function insertDash(num) {
 function validateUsr(username) {
   return /^[0-9a-z_]{4,16}$/.test(username)
 }
+
+// Nice array
+
+function isNice(arr){
+  if (arr.length < 1){
+    return false
+  }
+
+  for( let i = 0; i < arr.length; i++){
+   let number = arr[i];
+   let less = arr.includes(number-1);
+   let more = arr.includes(number+1);
+
+    if(less || more){
+      //good
+    }else{
+      return false;
+     }
+  }
+
+return arr.length > 1;
+}
