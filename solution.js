@@ -42,3 +42,11 @@ function isNice(arr){
 return arr.length > 1;
 }
 
+
+// Vowels
+
+function disemvowel(str) {
+return str.replace(/[aeiou]/gi, '');
+
+}
+
