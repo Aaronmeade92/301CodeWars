@@ -42,6 +42,7 @@ function isNice(arr){
 return arr.length > 1;
 }
 
+
 // Vowels
 
 function disemvowel(str) {
