@@ -75,3 +75,9 @@ function formatWords(words){
 function solution(str){
   return str.split('').reverse().join('');
 }
+
+// .map() to double
+
+function double(array) {
+    return array.map(x=>x*2);
+}
