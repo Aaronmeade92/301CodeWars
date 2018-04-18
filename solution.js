@@ -81,3 +81,22 @@ function solution(str){
 function double(array) {
     return array.map(x=>x*2);
 }
+
+// cubed numbers
+
+function cubeOdd(arr) {
+
+    // insert code here >.<
+
+    if (arr.some(isNaN)) {
+    return undefined;
+    } else {
+    let cubedArray = arr.map(x => Math.pow(x,3));
+    let filteredArray = cubedArray.filter(x => x % 2 !==0);
+    if (filteredArray.length >0) {
+        return filteredArray.reduce((sumTotal , x) => sumTotal + x);
+    } else {
+        return 0;
+    }
+    }
+}
